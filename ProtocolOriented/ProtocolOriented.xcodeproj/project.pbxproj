@@ -24,6 +24,7 @@
 		323147EE23D9702900B71DCD /* ProtocolB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147ED23D9702900B71DCD /* ProtocolB.swift */; };
 		323147F023D9764C00B71DCD /* ProtocolX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147EF23D9764C00B71DCD /* ProtocolX.swift */; };
 		323147F223D9768E00B71DCD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F123D9768E00B71DCD /* Test.swift */; };
+		323147F423D9A32700B71DCD /* ClassOnlyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		323147ED23D9702900B71DCD /* ProtocolB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolB.swift; sourceTree = "<group>"; };
 		323147EF23D9764C00B71DCD /* ProtocolX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolX.swift; sourceTree = "<group>"; };
 		323147F123D9768E00B71DCD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassOnlyProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				323147ED23D9702900B71DCD /* ProtocolB.swift */,
 				323147EF23D9764C00B71DCD /* ProtocolX.swift */,
 				323147F123D9768E00B71DCD /* Test.swift */,
+				323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */,
 			);
 			path = ProtocolDepthKnowledge;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				323147E823D96E1600B71DCD /* Bomb.swift in Sources */,
 				323147DD23D966C000B71DCD /* Fireable.swift in Sources */,
 				323147C823D9634500B71DCD /* SceneDelegate.swift in Sources */,
+				323147F423D9A32700B71DCD /* ClassOnlyProtocol.swift in Sources */,
 				323147E623D96DD500B71DCD /* Bombable.swift in Sources */,
 				323147EC23D9700F00B71DCD /* ProtocolA.swift in Sources */,
 				323147E423D968D000B71DCD /* Sword.swift in Sources */,
