@@ -40,7 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let bomb = Bomb(name: "Hydrogen Bomb", maxDistance: 1000, magazineSize: 100)
         
-        TestY()
+        //TestY()
 
     }
 

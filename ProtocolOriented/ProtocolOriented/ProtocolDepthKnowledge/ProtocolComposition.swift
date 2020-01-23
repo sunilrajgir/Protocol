@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol Named {
+/*protocol Named {
     var name: String { get }
 }
 protocol Aged {
@@ -18,7 +18,8 @@ struct Person: Named, Aged {
     var name: String
     var age: Int
 }
-
+*/
+/*
 struct TestY {
     
     init() {
@@ -36,7 +37,7 @@ struct TestY {
 //    func beginConcert(in location: Location & Named) {
 //         print("Hello, \(location.name)!")
 //     }
-}
+} */
 
 /*
 class Location {
