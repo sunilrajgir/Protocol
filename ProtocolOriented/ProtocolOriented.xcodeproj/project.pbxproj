@@ -16,6 +16,8 @@
 		323147DB23D965CB00B71DCD /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DA23D965CB00B71DCD /* Weapon.swift */; };
 		323147DD23D966C000B71DCD /* Fireable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DC23D966C000B71DCD /* Fireable.swift */; };
 		323147DF23D9676700B71DCD /* Cuttable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DE23D9676700B71DCD /* Cuttable.swift */; };
+		323147E223D9686C00B71DCD /* Rifle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E123D9686C00B71DCD /* Rifle.swift */; };
+		323147E423D968D000B71DCD /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E323D968D000B71DCD /* Sword.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		323147DA23D965CB00B71DCD /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
 		323147DC23D966C000B71DCD /* Fireable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireable.swift; sourceTree = "<group>"; };
 		323147DE23D9676700B71DCD /* Cuttable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuttable.swift; sourceTree = "<group>"; };
+		323147E123D9686C00B71DCD /* Rifle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rifle.swift; sourceTree = "<group>"; };
+		323147E323D968D000B71DCD /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		323147C423D9634500B71DCD /* ProtocolOriented */ = {
 			isa = PBXGroup;
 			children = (
+				323147E023D9684B00B71DCD /* StructureGroup */,
 				323147D923D963B900B71DCD /* ProtocolGroup */,
 				323147C523D9634500B71DCD /* AppDelegate.swift */,
 				323147C723D9634500B71DCD /* SceneDelegate.swift */,
@@ -82,6 +87,15 @@
 				323147DE23D9676700B71DCD /* Cuttable.swift */,
 			);
 			path = ProtocolGroup;
+			sourceTree = "<group>";
+		};
+		323147E023D9684B00B71DCD /* StructureGroup */ = {
+			isa = PBXGroup;
+			children = (
+				323147E123D9686C00B71DCD /* Rifle.swift */,
+				323147E323D968D000B71DCD /* Sword.swift */,
+			);
+			path = StructureGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +174,9 @@
 				323147C623D9634500B71DCD /* AppDelegate.swift in Sources */,
 				323147DD23D966C000B71DCD /* Fireable.swift in Sources */,
 				323147C823D9634500B71DCD /* SceneDelegate.swift in Sources */,
+				323147E423D968D000B71DCD /* Sword.swift in Sources */,
 				323147DF23D9676700B71DCD /* Cuttable.swift in Sources */,
+				323147E223D9686C00B71DCD /* Rifle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

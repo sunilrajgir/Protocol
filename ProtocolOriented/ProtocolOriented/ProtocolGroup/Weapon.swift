@@ -10,7 +10,10 @@ import Foundation
 
 
 protocol Weapon {
-    var name    : Bool {get}
-    var canCut  : Bool {get}
-    var canFire : Bool {get}
+    var name    : String {get}
+}
+
+extension Weapon {
+    var canCut  : Bool { return self is Cuttable}
+    var canFire : Bool { return self is Fireable}
 }
