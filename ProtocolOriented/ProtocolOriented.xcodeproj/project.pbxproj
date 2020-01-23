@@ -18,6 +18,8 @@
 		323147DF23D9676700B71DCD /* Cuttable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DE23D9676700B71DCD /* Cuttable.swift */; };
 		323147E223D9686C00B71DCD /* Rifle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E123D9686C00B71DCD /* Rifle.swift */; };
 		323147E423D968D000B71DCD /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E323D968D000B71DCD /* Sword.swift */; };
+		323147E623D96DD500B71DCD /* Bombable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E523D96DD500B71DCD /* Bombable.swift */; };
+		323147E823D96E1600B71DCD /* Bomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147E723D96E1600B71DCD /* Bomb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		323147DE23D9676700B71DCD /* Cuttable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuttable.swift; sourceTree = "<group>"; };
 		323147E123D9686C00B71DCD /* Rifle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rifle.swift; sourceTree = "<group>"; };
 		323147E323D968D000B71DCD /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		323147E523D96DD500B71DCD /* Bombable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bombable.swift; sourceTree = "<group>"; };
+		323147E723D96E1600B71DCD /* Bomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bomb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 				323147DA23D965CB00B71DCD /* Weapon.swift */,
 				323147DC23D966C000B71DCD /* Fireable.swift */,
 				323147DE23D9676700B71DCD /* Cuttable.swift */,
+				323147E523D96DD500B71DCD /* Bombable.swift */,
 			);
 			path = ProtocolGroup;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			children = (
 				323147E123D9686C00B71DCD /* Rifle.swift */,
 				323147E323D968D000B71DCD /* Sword.swift */,
+				323147E723D96E1600B71DCD /* Bomb.swift */,
 			);
 			path = StructureGroup;
 			sourceTree = "<group>";
@@ -172,8 +178,10 @@
 				323147CA23D9634500B71DCD /* ViewController.swift in Sources */,
 				323147DB23D965CB00B71DCD /* Weapon.swift in Sources */,
 				323147C623D9634500B71DCD /* AppDelegate.swift in Sources */,
+				323147E823D96E1600B71DCD /* Bomb.swift in Sources */,
 				323147DD23D966C000B71DCD /* Fireable.swift in Sources */,
 				323147C823D9634500B71DCD /* SceneDelegate.swift in Sources */,
+				323147E623D96DD500B71DCD /* Bombable.swift in Sources */,
 				323147E423D968D000B71DCD /* Sword.swift in Sources */,
 				323147DF23D9676700B71DCD /* Cuttable.swift in Sources */,
 				323147E223D9686C00B71DCD /* Rifle.swift in Sources */,

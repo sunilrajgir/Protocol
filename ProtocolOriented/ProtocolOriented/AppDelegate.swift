@@ -37,6 +37,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let ak47 = Rifle(name: "AK47", magazineSize: 10)
         
         let longSword = Sword(name: "LongSword", weight: 5, steel: "iron")
+        
+        let bomb = Bomb(name: "Hydrogen Bomb", maxDistance: 1000, magazineSize: 100)
     }
 
 
