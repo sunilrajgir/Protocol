@@ -28,6 +28,7 @@
 		323147F623D9A4A900B71DCD /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F523D9A4A900B71DCD /* ProtocolComposition.swift */; };
 		323147F823D9A6C200B71DCD /* ProtocolConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F723D9A6C100B71DCD /* ProtocolConformance.swift */; };
 		323147FA23D9A82C00B71DCD /* ProtocolOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F923D9A82C00B71DCD /* ProtocolOptional.swift */; };
+		323147FC23D9A8E200B71DCD /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147FB23D9A8E200B71DCD /* ProtocolExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		323147F523D9A4A900B71DCD /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
 		323147F723D9A6C100B71DCD /* ProtocolConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolConformance.swift; sourceTree = "<group>"; };
 		323147F923D9A82C00B71DCD /* ProtocolOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOptional.swift; sourceTree = "<group>"; };
+		323147FB23D9A8E200B71DCD /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				323147F523D9A4A900B71DCD /* ProtocolComposition.swift */,
 				323147F723D9A6C100B71DCD /* ProtocolConformance.swift */,
 				323147F923D9A82C00B71DCD /* ProtocolOptional.swift */,
+				323147FB23D9A8E200B71DCD /* ProtocolExtension.swift */,
 			);
 			path = ProtocolDepthKnowledge;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323147FC23D9A8E200B71DCD /* ProtocolExtension.swift in Sources */,
 				323147CA23D9634500B71DCD /* ViewController.swift in Sources */,
 				323147DB23D965CB00B71DCD /* Weapon.swift in Sources */,
 				323147C623D9634500B71DCD /* AppDelegate.swift in Sources */,
