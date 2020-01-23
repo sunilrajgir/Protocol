@@ -14,6 +14,8 @@
 		323147CF23D9634700B71DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323147CE23D9634700B71DCD /* Assets.xcassets */; };
 		323147D223D9634700B71DCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323147D023D9634700B71DCD /* LaunchScreen.storyboard */; };
 		323147DB23D965CB00B71DCD /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DA23D965CB00B71DCD /* Weapon.swift */; };
+		323147DD23D966C000B71DCD /* Fireable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DC23D966C000B71DCD /* Fireable.swift */; };
+		323147DF23D9676700B71DCD /* Cuttable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147DE23D9676700B71DCD /* Cuttable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		323147D123D9634700B71DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323147D323D9634700B71DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323147DA23D965CB00B71DCD /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		323147DC23D966C000B71DCD /* Fireable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireable.swift; sourceTree = "<group>"; };
+		323147DE23D9676700B71DCD /* Cuttable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuttable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				323147DA23D965CB00B71DCD /* Weapon.swift */,
+				323147DC23D966C000B71DCD /* Fireable.swift */,
+				323147DE23D9676700B71DCD /* Cuttable.swift */,
 			);
 			path = ProtocolGroup;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 				323147CA23D9634500B71DCD /* ViewController.swift in Sources */,
 				323147DB23D965CB00B71DCD /* Weapon.swift in Sources */,
 				323147C623D9634500B71DCD /* AppDelegate.swift in Sources */,
+				323147DD23D966C000B71DCD /* Fireable.swift in Sources */,
 				323147C823D9634500B71DCD /* SceneDelegate.swift in Sources */,
+				323147DF23D9676700B71DCD /* Cuttable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
