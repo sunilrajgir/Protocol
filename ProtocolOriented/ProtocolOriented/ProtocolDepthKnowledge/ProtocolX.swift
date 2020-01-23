@@ -172,3 +172,47 @@ struct TestY {
 }
  */
 
+
+// Function default implementation in protocol
+/*
+ protocol ProtocolX {
+    func show()
+}
+
+extension ProtocolX {
+    func show()  { // Error Invalid redeclaration of 'show()'
+        print("protocolX.show()")
+    }
+}
+
+protocol ProtocolY {
+    func show()
+}
+
+extension ProtocolY  {
+    func show()  { // Error Invalid redeclaration of 'show()'
+         print("protocolY.show()")
+     }
+}
+
+struct TestP : ProtocolX {
+
+}
+*/
+
+/*
+struct TestP : ProtocolX,ProtocolY {
+   // error : Type 'TestP' does not conform to protocol 'ProtocolX'
+}
+ 
+*/
+
+/*
+struct TestY {
+    init() {
+        TestP().show() // error : Ambiguous use of 'show()'
+    }
+}
+*/
+
+
