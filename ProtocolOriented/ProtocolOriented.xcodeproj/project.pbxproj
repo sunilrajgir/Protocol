@@ -27,6 +27,7 @@
 		323147F423D9A32700B71DCD /* ClassOnlyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */; };
 		323147F623D9A4A900B71DCD /* ProtocolComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F523D9A4A900B71DCD /* ProtocolComposition.swift */; };
 		323147F823D9A6C200B71DCD /* ProtocolConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F723D9A6C100B71DCD /* ProtocolConformance.swift */; };
+		323147FA23D9A82C00B71DCD /* ProtocolOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323147F923D9A82C00B71DCD /* ProtocolOptional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassOnlyProtocol.swift; sourceTree = "<group>"; };
 		323147F523D9A4A900B71DCD /* ProtocolComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolComposition.swift; sourceTree = "<group>"; };
 		323147F723D9A6C100B71DCD /* ProtocolConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolConformance.swift; sourceTree = "<group>"; };
+		323147F923D9A82C00B71DCD /* ProtocolOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolOptional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				323147F323D9A32700B71DCD /* ClassOnlyProtocol.swift */,
 				323147F523D9A4A900B71DCD /* ProtocolComposition.swift */,
 				323147F723D9A6C100B71DCD /* ProtocolConformance.swift */,
+				323147F923D9A82C00B71DCD /* ProtocolOptional.swift */,
 			);
 			path = ProtocolDepthKnowledge;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				323147CA23D9634500B71DCD /* ViewController.swift in Sources */,
 				323147DB23D965CB00B71DCD /* Weapon.swift in Sources */,
 				323147C623D9634500B71DCD /* AppDelegate.swift in Sources */,
+				323147FA23D9A82C00B71DCD /* ProtocolOptional.swift in Sources */,
 				323147F223D9768E00B71DCD /* Test.swift in Sources */,
 				323147F023D9764C00B71DCD /* ProtocolX.swift in Sources */,
 				323147E823D96E1600B71DCD /* Bomb.swift in Sources */,
