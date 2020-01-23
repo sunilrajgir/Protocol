@@ -18,7 +18,7 @@ class P: ClassOnlyProtocol {
     }
 }
 
-struct Q : ClassOnlyProtocol { // Error: Non-class type 'Q' cannot conform to class protocol 'ClassOnlyProtocol'
-    
-}
+//struct Q : ClassOnlyProtocol { // Error: Non-class type 'Q' cannot conform to class protocol 'ClassOnlyProtocol'
+//
+//}
 
