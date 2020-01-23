@@ -1,5 +1,5 @@
 //
-//  Bomb.swift
+//  ProtocolB.swift
 //  ProtocolOriented
 //
 //  Created by sunil.kumar1 on 1/23/20.
@@ -8,9 +8,6 @@
 
 import Foundation
 
-struct Bomb: Weapon, Bombable {
-    var name: String
-    var maxDistance: Int
-    var magazineSize: Int
-    
+protocol ProtocolB {
+
 }

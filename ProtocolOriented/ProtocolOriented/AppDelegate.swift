@@ -39,6 +39,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let longSword = Sword(name: "LongSword", weight: 5, steel: "iron")
         
         let bomb = Bomb(name: "Hydrogen Bomb", maxDistance: 1000, magazineSize: 100)
+        
+        //TestY()
+
     }
 
 
